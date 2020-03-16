@@ -28,6 +28,5 @@ ________________________________________________________________________________
 
 ###### 最後附上參考文章連結
 ###### https://www.shiyanlou.com/courses/782
-###### https://conyli.cc/archives/1828
 ###### https://mp.weixin.qq.com/s/hqaPrPS7w3D-9SeegQAB2Q
 ###### https://ithelp.ithome.com.tw/articles/10212659
