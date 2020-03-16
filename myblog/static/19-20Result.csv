@@ -1,0 +1,894 @@
+win,lose,probability
+Toronto Raptors,New Orleans Pelicans,0.75
+Los Angeles Lakers,Los Angeles Clippers,0.7
+Charlotte Hornets,Chicago Bulls,0.59
+Indiana Pacers,Detroit Pistons,0.69
+Orlando Magic,Cleveland Cavaliers,0.72
+Brooklyn Nets,Minnesota Timberwolves,0.57
+Miami Heat,Memphis Grizzlies,0.57
+Boston Celtics,Philadelphia 76ers,0.57
+Dallas Mavericks,Washington Wizards,0.77
+San Antonio Spurs,New York Knicks,0.62
+Utah Jazz,Oklahoma City Thunder,0.5
+Sacramento Kings,Phoenix Suns,0.56
+Denver Nuggets,Portland Trail Blazers,0.66
+Detroit Pistons,Atlanta Hawks,0.61
+Milwaukee Bucks,Houston Rockets,0.84
+Los Angeles Clippers,Golden State Warriors,0.86
+Toronto Raptors,Boston Celtics,0.58
+Minnesota Timberwolves,Charlotte Hornets,0.56
+Brooklyn Nets,New York Knicks,0.69
+Memphis Grizzlies,Chicago Bulls,0.72
+Dallas Mavericks,New Orleans Pelicans,0.68
+Oklahoma City Thunder,Washington Wizards,0.74
+Denver Nuggets,Phoenix Suns,0.75
+Sacramento Kings,Portland Trail Blazers,0.51
+Los Angeles Lakers,Utah Jazz,0.64
+Milwaukee Bucks,Miami Heat,0.6
+Philadelphia 76ers,Detroit Pistons,0.75
+Orlando Magic,Atlanta Hawks,0.67
+Boston Celtics,New York Knicks,0.82
+Toronto Raptors,Chicago Bulls,0.78
+Indiana Pacers,Cleveland Cavaliers,0.78
+Houston Rockets,New Orleans Pelicans,0.68
+Washington Wizards,San Antonio Spurs,0.5
+Utah Jazz,Sacramento Kings,0.7
+Los Angeles Clippers,Phoenix Suns,0.81
+Oklahoma City Thunder,Golden State Warriors,0.85
+Brooklyn Nets,Memphis Grizzlies,0.58
+Dallas Mavericks,Portland Trail Blazers,0.71
+Miami Heat,Minnesota Timberwolves,0.8
+Los Angeles Lakers,Charlotte Hornets,0.87
+New York Knicks,Chicago Bulls,0.63
+Indiana Pacers,Detroit Pistons,0.83
+Toronto Raptors,Orlando Magic,0.69
+Philadelphia 76ers,Atlanta Hawks,0.68
+Houston Rockets,Oklahoma City Thunder,0.5
+Milwaukee Bucks,Cleveland Cavaliers,0.92
+New Orleans Pelicans,Golden State Warriors,0.76
+Portland Trail Blazers,San Antonio Spurs,0.57
+Utah Jazz,Phoenix Suns,0.76
+Denver Nuggets,Sacramento Kings,0.7
+Los Angeles Clippers,Charlotte Hornets,0.79
+Miami Heat,Atlanta Hawks,0.85
+Denver Nuggets,Dallas Mavericks,0.53
+Los Angeles Lakers,Memphis Grizzlies,0.74
+Cleveland Cavaliers,Chicago Bulls,0.66
+Orlando Magic,New York Knicks,0.66
+Philadelphia 76ers,Minnesota Timberwolves,0.76
+Milwaukee Bucks,Boston Celtics,0.83
+Indiana Pacers,Brooklyn Nets,0.74
+Toronto Raptors,Detroit Pistons,0.84
+Oklahoma City Thunder,Portland Trail Blazers,0.68
+Houston Rockets,Washington Wizards,0.73
+Sacramento Kings,Charlotte Hornets,0.59
+Los Angeles Clippers,Utah Jazz,0.6
+Phoenix Suns,Golden State Warriors,0.6
+Miami Heat,Atlanta Hawks,0.76
+Denver Nuggets,New Orleans Pelicans,0.66
+Los Angeles Clippers,San Antonio Spurs,0.64
+Houston Rockets,Brooklyn Nets,0.69
+Indiana Pacers,Cleveland Cavaliers,0.82
+Milwaukee Bucks,Orlando Magic,0.94
+Boston Celtics,New York Knicks,0.85
+Chicago Bulls,Detroit Pistons,0.6
+Los Angeles Lakers,Dallas Mavericks,0.71
+Utah Jazz,Sacramento Kings,0.73
+San Antonio Spurs,Golden State Warriors,0.71
+Oklahoma City Thunder,New Orleans Pelicans,0.63
+Brooklyn Nets,Detroit Pistons,0.72
+Denver Nuggets,Orlando Magic,0.73
+Memphis Grizzlies,Phoenix Suns,0.54
+Milwaukee Bucks,Toronto Raptors,0.52
+Washington Wizards,Minnesota Timberwolves,0.53
+Charlotte Hornets,Golden State Warriors,0.54
+Philadelphia 76ers,Portland Trail Blazers,0.59
+Indiana Pacers,Chicago Bulls,0.79
+Houston Rockets,Miami Heat,0.51
+Sacramento Kings,New York Knicks,0.6
+Los Angeles Lakers,San Antonio Spurs,0.89
+Dallas Mavericks,Cleveland Cavaliers,0.75
+Utah Jazz,Los Angeles Clippers,0.51
+Washington Wizards,Detroit Pistons,0.55
+New Orleans Pelicans,Brooklyn Nets,0.55
+Houston Rockets,Memphis Grizzlies,0.68
+Milwaukee Bucks,Minnesota Timberwolves,0.95
+Philadelphia 76ers,Phoenix Suns,0.67
+Portland Trail Blazers,Golden State Warriors,0.62
+Indiana Pacers,Charlotte Hornets,0.83
+Boston Celtics,Cleveland Cavaliers,0.79
+San Antonio Spurs,Atlanta Hawks,0.64
+Los Angeles Lakers,Chicago Bulls,0.85
+Oklahoma City Thunder,Orlando Magic,0.56
+Denver Nuggets,Miami Heat,0.51
+Detroit Pistons,New York Knicks,0.56
+Indiana Pacers,Washington Wizards,0.68
+Atlanta Hawks,Chicago Bulls,0.67
+Houston Rockets,Golden State Warriors,0.87
+Toronto Raptors,Sacramento Kings,0.78
+Memphis Grizzlies,Minnesota Timberwolves,0.59
+Dallas Mavericks,Orlando Magic,0.6
+Utah Jazz,Philadelphia 76ers,0.59
+Milwaukee Bucks,Los Angeles Clippers,0.83
+Boston Celtics,Charlotte Hornets,0.84
+Oklahoma City Thunder,San Antonio Spurs,0.77
+Miami Heat,Phoenix Suns,0.76
+Los Angeles Clippers,Portland Trail Blazers,0.73
+Indiana Pacers,Detroit Pistons,0.69
+Memphis Grizzlies,Orlando Magic,0.65
+Washington Wizards,Cleveland Cavaliers,0.72
+Sacramento Kings,Atlanta Hawks,0.56
+Minnesota Timberwolves,Golden State Warriors,0.65
+Toronto Raptors,New Orleans Pelicans,0.76
+Dallas Mavericks,New York Knicks,0.85
+Denver Nuggets,Philadelphia 76ers,0.61
+Milwaukee Bucks,Utah Jazz,0.84
+Brooklyn Nets,Portland Trail Blazers,0.56
+Los Angeles Lakers,Miami Heat,0.64
+Boston Celtics,San Antonio Spurs,0.81
+New Orleans Pelicans,Charlotte Hornets,0.67
+Houston Rockets,Chicago Bulls,0.68
+Dallas Mavericks,Memphis Grizzlies,0.69
+Oklahoma City Thunder,Golden State Warriors,0.85
+Denver Nuggets,Minnesota Timberwolves,0.78
+Indiana Pacers,Orlando Magic,0.77
+Philadelphia 76ers,Charlotte Hornets,0.77
+Milwaukee Bucks,Oklahoma City Thunder,0.86
+New York Knicks,Cleveland Cavaliers,0.68
+Brooklyn Nets,Phoenix Suns,0.64
+Portland Trail Blazers,Atlanta Hawks,0.76
+Los Angeles Lakers,Toronto Raptors,0.56
+Minnesota Timberwolves,Detroit Pistons,0.57
+Boston Celtics,Dallas Mavericks,0.52
+Memphis Grizzlies,San Antonio Spurs,0.69
+Houston Rockets,New Orleans Pelicans,0.66
+Utah Jazz,Golden State Warriors,0.81
+Toronto Raptors,Los Angeles Clippers,0.58
+Oklahoma City Thunder,Indiana Pacers,0.62
+Philadelphia 76ers,Cleveland Cavaliers,0.88
+Miami Heat,Detroit Pistons,0.76
+Chicago Bulls,New York Knicks,0.7
+Denver Nuggets,Atlanta Hawks,0.88
+Los Angeles Lakers,Phoenix Suns,0.88
+Utah Jazz,Brooklyn Nets,0.62
+Sacramento Kings,Portland Trail Blazers,0.51
+Memphis Grizzlies,Charlotte Hornets,0.73
+Philadelphia 76ers,Orlando Magic,0.67
+Boston Celtics,Washington Wizards,0.78
+Los Angeles Clippers,Houston Rockets,0.59
+San Antonio Spurs,Minnesota Timberwolves,0.69
+Los Angeles Lakers,Golden State Warriors,0.93
+Toronto Raptors,Portland Trail Blazers,0.76
+Miami Heat,Cleveland Cavaliers,0.77
+Milwaukee Bucks,Chicago Bulls,0.9
+Los Angeles Clippers,New Orleans Pelicans,0.76
+Dallas Mavericks,New York Knicks,0.78
+Phoenix Suns,Atlanta Hawks,0.69
+Denver Nuggets,Brooklyn Nets,0.65
+Detroit Pistons,Charlotte Hornets,0.53
+San Antonio Spurs,Orlando Magic,0.63
+Indiana Pacers,Houston Rockets,0.53
+Utah Jazz,Memphis Grizzlies,0.71
+Washington Wizards,Minnesota Timberwolves,0.53
+Oklahoma City Thunder,Philadelphia 76ers,0.55
+Boston Celtics,Golden State Warriors,0.83
+Los Angeles Lakers,Sacramento Kings,0.82
+Brooklyn Nets,Chicago Bulls,0.59
+Milwaukee Bucks,Indiana Pacers,0.89
+Charlotte Hornets,New York Knicks,0.5
+Miami Heat,New Orleans Pelicans,0.64
+Houston Rockets,Minnesota Timberwolves,0.78
+Toronto Raptors,Dallas Mavericks,0.59
+Portland Trail Blazers,San Antonio Spurs,0.57
+Los Angeles Clippers,Atlanta Hawks,0.88
+Philadelphia 76ers,Cleveland Cavaliers,0.68
+Boston Celtics,Sacramento Kings,0.75
+Denver Nuggets,Memphis Grizzlies,0.68
+Orlando Magic,Washington Wizards,0.54
+New Orleans Pelicans,Golden State Warriors,0.76
+Los Angeles Lakers,Atlanta Hawks,0.93
+New York Knicks,Cleveland Cavaliers,0.68
+Indiana Pacers,Brooklyn Nets,0.74
+Toronto Raptors,Charlotte Hornets,0.84
+Milwaukee Bucks,Chicago Bulls,0.92
+Houston Rockets,Portland Trail Blazers,0.72
+Dallas Mavericks,San Antonio Spurs,0.63
+Boston Celtics,Phoenix Suns,0.79
+Utah Jazz,Minnesota Timberwolves,0.77
+Los Angeles Clippers,Oklahoma City Thunder,0.51
+Memphis Grizzlies,Golden State Warriors,0.75
+New Orleans Pelicans,Portland Trail Blazers,0.54
+Sacramento Kings,Phoenix Suns,0.52
+Los Angeles Lakers,Oklahoma City Thunder,0.65
+Philadelphia 76ers,New York Knicks,0.84
+San Antonio Spurs,Washington Wizards,0.63
+Milwaukee Bucks,Atlanta Hawks,0.94
+Brooklyn Nets,Charlotte Hornets,0.59
+Dallas Mavericks,Golden State Warriors,0.87
+Miami Heat,Cleveland Cavaliers,0.87
+Toronto Raptors,Orlando Magic,0.69
+Chicago Bulls,Detroit Pistons,0.6
+Utah Jazz,Minnesota Timberwolves,0.8
+Denver Nuggets,Houston Rockets,0.55
+Boston Celtics,Los Angeles Clippers,0.54
+Milwaukee Bucks,Portland Trail Blazers,0.8
+New Orleans Pelicans,Phoenix Suns,0.59
+Detroit Pistons,Atlanta Hawks,0.61
+Washington Wizards,Charlotte Hornets,0.55
+Sacramento Kings,Brooklyn Nets,0.51
+Miami Heat,Chicago Bulls,0.72
+Los Angeles Lakers,Oklahoma City Thunder,0.74
+Philadelphia 76ers,San Antonio Spurs,0.61
+Dallas Mavericks,Cleveland Cavaliers,0.88
+Boston Celtics,Denver Nuggets,0.53
+Utah Jazz,Golden State Warriors,0.87
+Los Angeles Clippers,Houston Rockets,0.54
+Phoenix Suns,Minnesota Timberwolves,0.58
+Charlotte Hornets,Chicago Bulls,0.59
+Orlando Magic,Indiana Pacers,0.52
+Toronto Raptors,Atlanta Hawks,0.81
+San Antonio Spurs,New York Knicks,0.68
+Miami Heat,Philadelphia 76ers,0.53
+Portland Trail Blazers,Cleveland Cavaliers,0.55
+Los Angeles Lakers,Memphis Grizzlies,0.85
+Milwaukee Bucks,Detroit Pistons,0.85
+Utah Jazz,New Orleans Pelicans,0.67
+Houston Rockets,Dallas Mavericks,0.51
+Brooklyn Nets,New York Knicks,0.68
+Sacramento Kings,Washington Wizards,0.55
+Denver Nuggets,Phoenix Suns,0.75
+Los Angeles Clippers,New Orleans Pelicans,0.68
+Brooklyn Nets,Cleveland Cavaliers,0.65
+Orlando Magic,Detroit Pistons,0.74
+Memphis Grizzlies,Indiana Pacers,0.51
+Atlanta Hawks,Minnesota Timberwolves,0.52
+Boston Celtics,Sacramento Kings,0.71
+Miami Heat,Charlotte Hornets,0.75
+Toronto Raptors,Philadelphia 76ers,0.68
+Chicago Bulls,Portland Trail Blazers,0.51
+Milwaukee Bucks,Utah Jazz,0.59
+Los Angeles Lakers,San Antonio Spurs,0.89
+Oklahoma City Thunder,Golden State Warriors,0.8
+Los Angeles Clippers,Dallas Mavericks,0.6
+Denver Nuggets,Washington Wizards,0.79
+Boston Celtics,Brooklyn Nets,0.63
+Detroit Pistons,Charlotte Hornets,0.53
+Orlando Magic,Cleveland Cavaliers,0.67
+Utah Jazz,Indiana Pacers,0.63
+Philadelphia 76ers,Sacramento Kings,0.69
+Toronto Raptors,New York Knicks,0.89
+Miami Heat,Houston Rockets,0.51
+Los Angeles Clippers,Memphis Grizzlies,0.78
+Milwaukee Bucks,Atlanta Hawks,0.91
+Minnesota Timberwolves,San Antonio Spurs,0.51
+Phoenix Suns,Washington Wizards,0.53
+Los Angeles Lakers,New Orleans Pelicans,0.84
+Oklahoma City Thunder,Portland Trail Blazers,0.68
+Golden State Warriors,Chicago Bulls,0.6
+Boston Celtics,Brooklyn Nets,0.75
+Charlotte Hornets,Detroit Pistons,0.55
+Toronto Raptors,Orlando Magic,0.81
+Milwaukee Bucks,Cleveland Cavaliers,0.94
+Philadelphia 76ers,New York Knicks,0.71
+Indiana Pacers,Atlanta Hawks,0.81
+Utah Jazz,Memphis Grizzlies,0.71
+Miami Heat,Golden State Warriors,0.86
+Oklahoma City Thunder,New Orleans Pelicans,0.63
+Los Angeles Clippers,San Antonio Spurs,0.83
+Dallas Mavericks,Phoenix Suns,0.74
+Portland Trail Blazers,Chicago Bulls,0.74
+Los Angeles Lakers,Washington Wizards,0.86
+Denver Nuggets,Sacramento Kings,0.7
+Indiana Pacers,Philadelphia 76ers,0.55
+Houston Rockets,Atlanta Hawks,0.87
+Milwaukee Bucks,Charlotte Hornets,0.85
+Miami Heat,Brooklyn Nets,0.72
+Memphis Grizzlies,Minnesota Timberwolves,0.71
+Boston Celtics,New York Knicks,0.82
+Los Angeles Lakers,Dallas Mavericks,0.66
+San Antonio Spurs,Detroit Pistons,0.72
+Oklahoma City Thunder,New Orleans Pelicans,0.68
+Orlando Magic,Golden State Warriors,0.7
+Toronto Raptors,Utah Jazz,0.58
+Los Angeles Clippers,Washington Wizards,0.78
+Phoenix Suns,Charlotte Hornets,0.61
+Utah Jazz,Philadelphia 76ers,0.53
+Atlanta Hawks,Golden State Warriors,0.7
+Indiana Pacers,Memphis Grizzlies,0.73
+Milwaukee Bucks,New York Knicks,0.9
+Sacramento Kings,Chicago Bulls,0.71
+Cleveland Cavaliers,Detroit Pistons,0.54
+Orlando Magic,Washington Wizards,0.66
+Dallas Mavericks,New Orleans Pelicans,0.68
+Toronto Raptors,Miami Heat,0.58
+Houston Rockets,San Antonio Spurs,0.76
+Los Angeles Lakers,Denver Nuggets,0.69
+Los Angeles Clippers,Portland Trail Blazers,0.73
+Charlotte Hornets,Golden State Warriors,0.63
+Milwaukee Bucks,Detroit Pistons,0.96
+Phoenix Suns,Orlando Magic,0.52
+Brooklyn Nets,Atlanta Hawks,0.64
+Miami Heat,Boston Celtics,0.5
+Memphis Grizzlies,Chicago Bulls,0.61
+Indiana Pacers,Oklahoma City Thunder,0.58
+Dallas Mavericks,Minnesota Timberwolves,0.77
+Los Angeles Lakers,Utah Jazz,0.71
+Portland Trail Blazers,Sacramento Kings,0.53
+Philadelphia 76ers,Washington Wizards,0.67
+Denver Nuggets,New York Knicks,0.77
+Toronto Raptors,Houston Rockets,0.62
+New Orleans Pelicans,Phoenix Suns,0.56
+Brooklyn Nets,Charlotte Hornets,0.71
+Orlando Magic,Cleveland Cavaliers,0.67
+Indiana Pacers,Detroit Pistons,0.83
+Boston Celtics,Denver Nuggets,0.53
+Chicago Bulls,Golden State Warriors,0.74
+Miami Heat,Washington Wizards,0.74
+Oklahoma City Thunder,Minnesota Timberwolves,0.73
+Milwaukee Bucks,Los Angeles Clippers,0.51
+Sacramento Kings,San Antonio Spurs,0.59
+Los Angeles Lakers,Portland Trail Blazers,0.84
+Dallas Mavericks,New Orleans Pelicans,0.67
+Indiana Pacers,New York Knicks,0.8
+Philadelphia 76ers,Cleveland Cavaliers,0.88
+Houston Rockets,Phoenix Suns,0.73
+Utah Jazz,Memphis Grizzlies,0.61
+Denver Nuggets,Brooklyn Nets,0.7
+Charlotte Hornets,Atlanta Hawks,0.62
+Miami Heat,Chicago Bulls,0.84
+Toronto Raptors,Philadelphia 76ers,0.61
+Los Angeles Clippers,Washington Wizards,0.81
+Dallas Mavericks,Sacramento Kings,0.7
+Oklahoma City Thunder,Portland Trail Blazers,0.68
+Los Angeles Lakers,Minnesota Timberwolves,0.86
+Los Angeles Clippers,Indiana Pacers,0.71
+Boston Celtics,Cleveland Cavaliers,0.89
+Toronto Raptors,Chicago Bulls,0.78
+Houston Rockets,Sacramento Kings,0.71
+Milwaukee Bucks,Orlando Magic,0.7
+New Orleans Pelicans,Detroit Pistons,0.63
+Phoenix Suns,Minnesota Timberwolves,0.53
+Utah Jazz,Oklahoma City Thunder,0.5
+Memphis Grizzlies,Golden State Warriors,0.73
+Washington Wizards,Charlotte Hornets,0.55
+Miami Heat,Atlanta Hawks,0.85
+Philadelphia 76ers,Denver Nuggets,0.5
+Portland Trail Blazers,New York Knicks,0.72
+Houston Rockets,Cleveland Cavaliers,0.74
+Boston Celtics,Indiana Pacers,0.67
+Los Angeles Lakers,Orlando Magic,0.87
+Los Angeles Clippers,Toronto Raptors,0.5
+Brooklyn Nets,Charlotte Hornets,0.59
+Chicago Bulls,Atlanta Hawks,0.74
+Utah Jazz,Minnesota Timberwolves,0.8
+Memphis Grizzlies,Phoenix Suns,0.66
+Milwaukee Bucks,New Orleans Pelicans,0.76
+Oklahoma City Thunder,Sacramento Kings,0.71
+Golden State Warriors,New York Knicks,0.58
+Boston Celtics,Philadelphia 76ers,0.6
+San Antonio Spurs,Cleveland Cavaliers,0.69
+Dallas Mavericks,Detroit Pistons,0.81
+Denver Nuggets,Portland Trail Blazers,0.74
+Los Angeles Lakers,Miami Heat,0.74
+Houston Rockets,Orlando Magic,0.72
+Philadelphia 76ers,New Orleans Pelicans,0.66
+Indiana Pacers,Atlanta Hawks,0.78
+Chicago Bulls,Charlotte Hornets,0.59
+Milwaukee Bucks,Memphis Grizzlies,0.92
+Utah Jazz,Golden State Warriors,0.87
+Los Angeles Clippers,Minnesota Timberwolves,0.85
+Sacramento Kings,New York Knicks,0.69
+San Antonio Spurs,Phoenix Suns,0.64
+Toronto Raptors,Brooklyn Nets,0.71
+Los Angeles Clippers,Chicago Bulls,0.78
+Memphis Grizzlies,Washington Wizards,0.59
+Miami Heat,Dallas Mavericks,0.52
+Milwaukee Bucks,Cleveland Cavaliers,0.92
+Denver Nuggets,Oklahoma City Thunder,0.52
+Houston Rockets,Detroit Pistons,0.78
+Orlando Magic,New Orleans Pelicans,0.59
+Indiana Pacers,Charlotte Hornets,0.68
+Los Angeles Lakers,Atlanta Hawks,0.88
+Philadelphia 76ers,Brooklyn Nets,0.63
+Denver Nuggets,New York Knicks,0.86
+Sacramento Kings,Golden State Warriors,0.63
+Washington Wizards,Detroit Pistons,0.56
+Toronto Raptors,Cleveland Cavaliers,0.92
+Houston Rockets,San Antonio Spurs,0.63
+Miami Heat,Memphis Grizzlies,0.71
+Milwaukee Bucks,Dallas Mavericks,0.62
+Oklahoma City Thunder,Chicago Bulls,0.83
+Portland Trail Blazers,Phoenix Suns,0.54
+Sacramento Kings,Charlotte Hornets,0.64
+Los Angeles Lakers,Indiana Pacers,0.8
+New York Knicks,Atlanta Hawks,0.65
+Brooklyn Nets,New Orleans Pelicans,0.56
+Utah Jazz,Orlando Magic,0.6
+Los Angeles Clippers,Phoenix Suns,0.74
+Cleveland Cavaliers,Charlotte Hornets,0.53
+Toronto Raptors,Detroit Pistons,0.86
+Miami Heat,Philadelphia 76ers,0.53
+Washington Wizards,Chicago Bulls,0.67
+New Orleans Pelicans,Minnesota Timberwolves,0.65
+Oklahoma City Thunder,Memphis Grizzlies,0.56
+Denver Nuggets,Orlando Magic,0.62
+Boston Celtics,Dallas Mavericks,0.56
+Portland Trail Blazers,Golden State Warriors,0.76
+Utah Jazz,Atlanta Hawks,0.76
+Los Angeles Lakers,Milwaukee Bucks,0.61
+Brooklyn Nets,San Antonio Spurs,0.67
+Los Angeles Clippers,Houston Rockets,0.54
+Memphis Grizzlies,Cleveland Cavaliers,0.67
+Indiana Pacers,Sacramento Kings,0.59
+Boston Celtics,Detroit Pistons,0.79
+Toronto Raptors,Washington Wizards,0.83
+Miami Heat,New York Knicks,0.83
+Oklahoma City Thunder,Phoenix Suns,0.69
+Dallas Mavericks,Philadelphia 76ers,0.51
+Denver Nuggets,Minnesota Timberwolves,0.78
+Orlando Magic,Portland Trail Blazers,0.59
+New Orleans Pelicans,Golden State Warriors,0.66
+Utah Jazz,Charlotte Hornets,0.82
+Brooklyn Nets,Atlanta Hawks,0.73
+Detroit Pistons,Chicago Bulls,0.58
+Philadelphia 76ers,Washington Wizards,0.76
+Milwaukee Bucks,New York Knicks,0.95
+Memphis Grizzlies,Sacramento Kings,0.5
+Los Angeles Clippers,San Antonio Spurs,0.83
+Houston Rockets,Phoenix Suns,0.73
+Portland Trail Blazers,Minnesota Timberwolves,0.61
+Toronto Raptors,Dallas Mavericks,0.6
+Boston Celtics,Charlotte Hornets,0.78
+Milwaukee Bucks,Indiana Pacers,0.58
+Los Angeles Clippers,Oklahoma City Thunder,0.64
+Los Angeles Lakers,Denver Nuggets,0.67
+Cleveland Cavaliers,Atlanta Hawks,0.68
+Philadelphia 76ers,Detroit Pistons,0.75
+Toronto Raptors,Indiana Pacers,0.7
+Washington Wizards,New York Knicks,0.51
+Orlando Magic,Chicago Bulls,0.67
+Utah Jazz,Miami Heat,0.55
+San Antonio Spurs,Memphis Grizzlies,0.58
+Denver Nuggets,Phoenix Suns,0.73
+New Orleans Pelicans,Portland Trail Blazers,0.51
+Houston Rockets,Sacramento Kings,0.69
+Minnesota Timberwolves,Golden State Warriors,0.55
+Toronto Raptors,Boston Celtics,0.54
+Milwaukee Bucks,Philadelphia 76ers,0.84
+Houston Rockets,Golden State Warriors,0.79
+Los Angeles Lakers,Los Angeles Clippers,0.56
+Denver Nuggets,New Orleans Pelicans,0.69
+Washington Wizards,Detroit Pistons,0.56
+Brooklyn Nets,New York Knicks,0.69
+Dallas Mavericks,San Antonio Spurs,0.63
+Oklahoma City Thunder,Memphis Grizzlies,0.56
+Sacramento Kings,Minnesota Timberwolves,0.57
+Utah Jazz,Portland Trail Blazers,0.72
+Boston Celtics,Cleveland Cavaliers,0.89
+Oklahoma City Thunder,Charlotte Hornets,0.8
+Philadelphia 76ers,Orlando Magic,0.67
+Milwaukee Bucks,Atlanta Hawks,0.94
+Indiana Pacers,Miami Heat,0.57
+Phoenix Suns,Golden State Warriors,0.6
+Denver Nuggets,Memphis Grizzlies,0.63
+Toronto Raptors,Boston Celtics,0.58
+Indiana Pacers,New Orleans Pelicans,0.71
+Chicago Bulls,Atlanta Hawks,0.74
+Houston Rockets,Brooklyn Nets,0.63
+Miami Heat,Philadelphia 76ers,0.56
+Minnesota Timberwolves,Cleveland Cavaliers,0.67
+Washington Wizards,New York Knicks,0.66
+Dallas Mavericks,Golden State Warriors,0.8
+Milwaukee Bucks,Orlando Magic,0.7
+San Antonio Spurs,Detroit Pistons,0.51
+Sacramento Kings,Phoenix Suns,0.52
+Los Angeles Lakers,Portland Trail Blazers,0.84
+Utah Jazz,Los Angeles Clippers,0.51
+Toronto Raptors,Oklahoma City Thunder,0.6
+Denver Nuggets,Sacramento Kings,0.72
+Memphis Grizzlies,Charlotte Hornets,0.6
+Houston Rockets,New Orleans Pelicans,0.66
+Los Angeles Lakers,Dallas Mavericks,0.66
+Orlando Magic,Atlanta Hawks,0.7
+Miami Heat,Washington Wizards,0.75
+Milwaukee Bucks,Chicago Bulls,0.92
+Brooklyn Nets,Minnesota Timberwolves,0.69
+Utah Jazz,Detroit Pistons,0.78
+Portland Trail Blazers,Phoenix Suns,0.56
+Boston Celtics,Charlotte Hornets,0.84
+Philadelphia 76ers,Indiana Pacers,0.53
+Los Angeles Clippers,Sacramento Kings,0.79
+Houston Rockets,Denver Nuggets,0.52
+San Antonio Spurs,Golden State Warriors,0.67
+Toronto Raptors,Cleveland Cavaliers,0.92
+Dallas Mavericks,Oklahoma City Thunder,0.54
+Orlando Magic,Washington Wizards,0.66
+Portland Trail Blazers,New York Knicks,0.58
+Milwaukee Bucks,Minnesota Timberwolves,0.84
+Los Angeles Lakers,Phoenix Suns,0.83
+Cleveland Cavaliers,Charlotte Hornets,0.53
+Denver Nuggets,Indiana Pacers,0.6
+Toronto Raptors,Miami Heat,0.63
+Utah Jazz,Chicago Bulls,0.72
+Minnesota Timberwolves,Golden State Warriors,0.65
+Dallas Mavericks,Brooklyn Nets,0.62
+Oklahoma City Thunder,San Antonio Spurs,0.77
+Memphis Grizzlies,Sacramento Kings,0.62
+Los Angeles Clippers,Detroit Pistons,0.79
+Boston Celtics,Atlanta Hawks,0.87
+Miami Heat,Orlando Magic,0.75
+Portland Trail Blazers,Washington Wizards,0.53
+Houston Rockets,Philadelphia 76ers,0.6
+Phoenix Suns,New York Knicks,0.65
+Los Angeles Lakers,New Orleans Pelicans,0.79
+Los Angeles Clippers,Memphis Grizzlies,0.62
+Toronto Raptors,Brooklyn Nets,0.78
+Utah Jazz,Orlando Magic,0.76
+Indiana Pacers,Atlanta Hawks,0.78
+Oklahoma City Thunder,Cleveland Cavaliers,0.75
+Boston Celtics,Chicago Bulls,0.75
+Denver Nuggets,Washington Wizards,0.73
+Dallas Mavericks,Charlotte Hornets,0.78
+Detroit Pistons,Golden State Warriors,0.53
+Milwaukee Bucks,San Antonio Spurs,0.73
+New Orleans Pelicans,Sacramento Kings,0.55
+Los Angeles Clippers,New York Knicks,0.85
+Miami Heat,Portland Trail Blazers,0.69
+Cleveland Cavaliers,Minnesota Timberwolves,0.52
+Memphis Grizzlies,Phoenix Suns,0.66
+Los Angeles Lakers,Detroit Pistons,0.87
+Indiana Pacers,Charlotte Hornets,0.83
+Brooklyn Nets,Orlando Magic,0.63
+Oklahoma City Thunder,Philadelphia 76ers,0.51
+Boston Celtics,Washington Wizards,0.78
+Denver Nuggets,Atlanta Hawks,0.74
+Utah Jazz,New Orleans Pelicans,0.7
+Dallas Mavericks,Chicago Bulls,0.86
+Milwaukee Bucks,San Antonio Spurs,0.95
+Sacramento Kings,Golden State Warriors,0.74
+Cleveland Cavaliers,Detroit Pistons,0.54
+Toronto Raptors,Portland Trail Blazers,0.79
+Oklahoma City Thunder,Brooklyn Nets,0.71
+Memphis Grizzlies,Minnesota Timberwolves,0.59
+Sacramento Kings,Phoenix Suns,0.56
+Los Angeles Lakers,New York Knicks,0.91
+Boston Celtics,San Antonio Spurs,0.64
+Toronto Raptors,Charlotte Hornets,0.86
+Miami Heat,Indiana Pacers,0.63
+Orlando Magic,Washington Wizards,0.54
+Houston Rockets,Atlanta Hawks,0.73
+Dallas Mavericks,Denver Nuggets,0.52
+New Orleans Pelicans,Chicago Bulls,0.74
+Utah Jazz,New York Knicks,0.85
+Milwaukee Bucks,Golden State Warriors,0.95
+Detroit Pistons,Cleveland Cavaliers,0.64
+Boston Celtics,Philadelphia 76ers,0.57
+Portland Trail Blazers,Minnesota Timberwolves,0.6
+Houston Rockets,Oklahoma City Thunder,0.52
+Washington Wizards,Atlanta Hawks,0.7
+New Orleans Pelicans,New York Knicks,0.63
+Miami Heat,Brooklyn Nets,0.72
+Indiana Pacers,Chicago Bulls,0.73
+San Antonio Spurs,Memphis Grizzlies,0.58
+Orlando Magic,Phoenix Suns,0.66
+Utah Jazz,Charlotte Hornets,0.78
+Los Angeles Lakers,Dallas Mavericks,0.71
+Milwaukee Bucks,Sacramento Kings,0.93
+Los Angeles Clippers,Golden State Warriors,0.88
+Houston Rockets,Minnesota Timberwolves,0.77
+Boston Celtics,New Orleans Pelicans,0.68
+Detroit Pistons,Chicago Bulls,0.58
+Los Angeles Lakers,Oklahoma City Thunder,0.74
+Dallas Mavericks,Philadelphia 76ers,0.59
+Denver Nuggets,Cleveland Cavaliers,0.89
+Milwaukee Bucks,Portland Trail Blazers,0.92
+Miami Heat,New York Knicks,0.79
+Utah Jazz,Washington Wizards,0.76
+Brooklyn Nets,Atlanta Hawks,0.73
+Memphis Grizzlies,Golden State Warriors,0.75
+Toronto Raptors,San Antonio Spurs,0.71
+Los Angeles Clippers,Denver Nuggets,0.57
+Phoenix Suns,Charlotte Hornets,0.54
+New Orleans Pelicans,Detroit Pistons,0.68
+Philadelphia 76ers,Indiana Pacers,0.53
+Boston Celtics,Chicago Bulls,0.86
+Oklahoma City Thunder,Minnesota Timberwolves,0.79
+Portland Trail Blazers,Charlotte Hornets,0.62
+Orlando Magic,Sacramento Kings,0.62
+Los Angeles Lakers,Cleveland Cavaliers,0.93
+Phoenix Suns,Atlanta Hawks,0.53
+Utah Jazz,Brooklyn Nets,0.73
+Houston Rockets,Memphis Grizzlies,0.68
+Milwaukee Bucks,New York Knicks,0.9
+Dallas Mavericks,Golden State Warriors,0.8
+Los Angeles Clippers,Cleveland Cavaliers,0.89
+Boston Celtics,Detroit Pistons,0.79
+Philadelphia 76ers,Brooklyn Nets,0.61
+Miami Heat,San Antonio Spurs,0.59
+Chicago Bulls,Washington Wizards,0.59
+Indiana Pacers,Minnesota Timberwolves,0.81
+Toronto Raptors,Oklahoma City Thunder,0.64
+Denver Nuggets,Charlotte Hornets,0.79
+Houston Rockets,Portland Trail Blazers,0.72
+Dallas Mavericks,Sacramento Kings,0.71
+Los Angeles Lakers,Orlando Magic,0.74
+Phoenix Suns,New York Knicks,0.57
+Milwaukee Bucks,Boston Celtics,0.56
+Utah Jazz,New Orleans Pelicans,0.7
+Denver Nuggets,Golden State Warriors,0.79
+Los Angeles Clippers,Orlando Magic,0.61
+Indiana Pacers,Minnesota Timberwolves,0.67
+Philadelphia 76ers,Chicago Bulls,0.85
+Toronto Raptors,Washington Wizards,0.83
+Memphis Grizzlies,Cleveland Cavaliers,0.77
+Miami Heat,Oklahoma City Thunder,0.56
+San Antonio Spurs,Atlanta Hawks,0.66
+Dallas Mavericks,Portland Trail Blazers,0.71
+Los Angeles Clippers,New Orleans Pelicans,0.76
+Milwaukee Bucks,Brooklyn Nets,0.93
+Boston Celtics,Phoenix Suns,0.74
+Atlanta Hawks,Detroit Pistons,0.54
+Philadelphia 76ers,New York Knicks,0.71
+Chicago Bulls,Cleveland Cavaliers,0.76
+Toronto Raptors,Minnesota Timberwolves,0.85
+Orlando Magic,Golden State Warriors,0.73
+Los Angeles Lakers,Houston Rockets,0.7
+Oklahoma City Thunder,Portland Trail Blazers,0.68
+Utah Jazz,Sacramento Kings,0.7
+Miami Heat,San Antonio Spurs,0.78
+Indiana Pacers,Denver Nuggets,0.51
+Washington Wizards,Detroit Pistons,0.55
+Toronto Raptors,Atlanta Hawks,0.81
+Philadelphia 76ers,Brooklyn Nets,0.63
+Orlando Magic,Charlotte Hornets,0.73
+Cleveland Cavaliers,New York Knicks,0.64
+Houston Rockets,Oklahoma City Thunder,0.5
+New Orleans Pelicans,Memphis Grizzlies,0.53
+Miami Heat,Sacramento Kings,0.67
+Milwaukee Bucks,Chicago Bulls,0.9
+Los Angeles Lakers,Boston Celtics,0.7
+Denver Nuggets,Minnesota Timberwolves,0.78
+San Antonio Spurs,Phoenix Suns,0.64
+Indiana Pacers,Utah Jazz,0.53
+Portland Trail Blazers,Golden State Warriors,0.76
+Los Angeles Clippers,Dallas Mavericks,0.6
+Sacramento Kings,Detroit Pistons,0.65
+Oklahoma City Thunder,Orlando Magic,0.74
+Toronto Raptors,Philadelphia 76ers,0.68
+Los Angeles Clippers,Atlanta Hawks,0.82
+Boston Celtics,Memphis Grizzlies,0.62
+Miami Heat,Washington Wizards,0.74
+Los Angeles Lakers,New York Knicks,0.9
+Chicago Bulls,Minnesota Timberwolves,0.58
+Houston Rockets,Denver Nuggets,0.52
+Indiana Pacers,Phoenix Suns,0.77
+San Antonio Spurs,New Orleans Pelicans,0.56
+Utah Jazz,Golden State Warriors,0.81
+Cleveland Cavaliers,Washington Wizards,0.52
+Los Angeles Lakers,Brooklyn Nets,0.86
+Dallas Mavericks,Portland Trail Blazers,0.68
+Milwaukee Bucks,Charlotte Hornets,0.95
+Memphis Grizzlies,Detroit Pistons,0.74
+Boston Celtics,Orlando Magic,0.78
+Toronto Raptors,New York Knicks,0.84
+Sacramento Kings,Chicago Bulls,0.5
+Los Angeles Clippers,Miami Heat,0.63
+Houston Rockets,Minnesota Timberwolves,0.78
+Denver Nuggets,New Orleans Pelicans,0.66
+Oklahoma City Thunder,Atlanta Hawks,0.85
+Phoenix Suns,San Antonio Spurs,0.56
+Indiana Pacers,Golden State Warriors,0.82
+Utah Jazz,Dallas Mavericks,0.51
+Brooklyn Nets,Detroit Pistons,0.72
+Cleveland Cavaliers,Chicago Bulls,0.66
+Oklahoma City Thunder,Minnesota Timberwolves,0.79
+Los Angeles Lakers,Philadelphia 76ers,0.72
+Denver Nuggets,Houston Rockets,0.55
+Toronto Raptors,San Antonio Spurs,0.83
+Atlanta Hawks,Washington Wizards,0.53
+Memphis Grizzlies,Phoenix Suns,0.54
+Boston Celtics,New Orleans Pelicans,0.73
+Brooklyn Nets,New York Knicks,0.68
+Los Angeles Clippers,Orlando Magic,0.81
+Indiana Pacers,Portland Trail Blazers,0.71
+Detroit Pistons,Cleveland Cavaliers,0.64
+Miami Heat,Orlando Magic,0.57
+San Antonio Spurs,Chicago Bulls,0.58
+Sacramento Kings,Minnesota Timberwolves,0.62
+Dallas Mavericks,Oklahoma City Thunder,0.54
+Utah Jazz,Houston Rockets,0.52
+Charlotte Hornets,New York Knicks,0.57
+Philadelphia 76ers,Golden State Warriors,0.87
+New Orleans Pelicans,Cleveland Cavaliers,0.6
+Toronto Raptors,Atlanta Hawks,0.91
+Denver Nuggets,Memphis Grizzlies,0.68
+Boston Celtics,Miami Heat,0.59
+Milwaukee Bucks,Washington Wizards,0.84
+Dallas Mavericks,Phoenix Suns,0.73
+Indiana Pacers,Chicago Bulls,0.79
+Brooklyn Nets,Detroit Pistons,0.59
+Memphis Grizzlies,New York Knicks,0.7
+Utah Jazz,San Antonio Spurs,0.78
+Houston Rockets,Portland Trail Blazers,0.66
+Oklahoma City Thunder,Sacramento Kings,0.71
+Toronto Raptors,Cleveland Cavaliers,0.82
+Washington Wizards,Charlotte Hornets,0.55
+Philadelphia 76ers,Atlanta Hawks,0.68
+Boston Celtics,Golden State Warriors,0.88
+Denver Nuggets,Utah Jazz,0.51
+Los Angeles Clippers,Sacramento Kings,0.71
+Toronto Raptors,Detroit Pistons,0.86
+Brooklyn Nets,Chicago Bulls,0.71
+Houston Rockets,Dallas Mavericks,0.51
+Memphis Grizzlies,New Orleans Pelicans,0.58
+Milwaukee Bucks,Denver Nuggets,0.63
+Oklahoma City Thunder,Phoenix Suns,0.75
+Los Angeles Lakers,Portland Trail Blazers,0.83
+Los Angeles Clippers,Minnesota Timberwolves,0.78
+Indiana Pacers,New York Knicks,0.78
+Miami Heat,Orlando Magic,0.75
+Cleveland Cavaliers,Golden State Warriors,0.69
+Brooklyn Nets,Washington Wizards,0.64
+Boston Celtics,Philadelphia 76ers,0.6
+Dallas Mavericks,Atlanta Hawks,0.87
+San Antonio Spurs,Charlotte Hornets,0.51
+Los Angeles Lakers,Sacramento Kings,0.86
+Utah Jazz,Portland Trail Blazers,0.7
+Denver Nuggets,Detroit Pistons,0.8
+Houston Rockets,New Orleans Pelicans,0.68
+Milwaukee Bucks,Phoenix Suns,0.81
+Toronto Raptors,Chicago Bulls,0.9
+Orlando Magic,Charlotte Hornets,0.73
+Cleveland Cavaliers,New York Knicks,0.64
+Dallas Mavericks,Indiana Pacers,0.61
+Washington Wizards,Golden State Warriors,0.7
+Boston Celtics,Atlanta Hawks,0.79
+Brooklyn Nets,Phoenix Suns,0.52
+Miami Heat,Philadelphia 76ers,0.56
+Memphis Grizzlies,Detroit Pistons,0.61
+Sacramento Kings,Minnesota Timberwolves,0.57
+Los Angeles Clippers,San Antonio Spurs,0.64
+Milwaukee Bucks,New Orleans Pelicans,0.92
+Houston Rockets,Charlotte Hornets,0.78
+Denver Nuggets,Portland Trail Blazers,0.74
+Los Angeles Lakers,San Antonio Spurs,0.76
+Phoenix Suns,Detroit Pistons,0.62
+Boston Celtics,Orlando Magic,0.61
+Brooklyn Nets,Golden State Warriors,0.74
+Toronto Raptors,Indiana Pacers,0.56
+Minnesota Timberwolves,Atlanta Hawks,0.64
+Oklahoma City Thunder,Cleveland Cavaliers,0.86
+Dallas Mavericks,Memphis Grizzlies,0.6
+Utah Jazz,Denver Nuggets,0.52
+Miami Heat,Los Angeles Clippers,0.5
+Orlando Magic,New York Knicks,0.7
+New Orleans Pelicans,Chicago Bulls,0.54
+Milwaukee Bucks,Philadelphia 76ers,0.69
+San Antonio Spurs,Portland Trail Blazers,0.56
+Los Angeles Lakers,Houston Rockets,0.67
+Philadelphia 76ers,Memphis Grizzlies,0.59
+Dallas Mavericks,Washington Wizards,0.74
+Boston Celtics,Atlanta Hawks,0.87
+Toronto Raptors,Indiana Pacers,0.7
+Oklahoma City Thunder,Detroit Pistons,0.75
+Houston Rockets,Phoenix Suns,0.73
+Miami Heat,Sacramento Kings,0.72
+Utah Jazz,Portland Trail Blazers,0.72
+Milwaukee Bucks,Orlando Magic,0.94
+Dallas Mavericks,Charlotte Hornets,0.8
+Detroit Pistons,New York Knicks,0.56
+Indiana Pacers,New Orleans Pelicans,0.56
+Toronto Raptors,Brooklyn Nets,0.71
+Los Angeles Clippers,Minnesota Timberwolves,0.85
+Los Angeles Lakers,Golden State Warriors,0.91
+Denver Nuggets,Phoenix Suns,0.73
+San Antonio Spurs,Sacramento Kings,0.59
+Boston Celtics,Oklahoma City Thunder,0.6
+Atlanta Hawks,New York Knicks,0.65
+Philadelphia 76ers,Chicago Bulls,0.85
+Memphis Grizzlies,Washington Wizards,0.65
+Utah Jazz,Houston Rockets,0.51
+Los Angeles Clippers,Cleveland Cavaliers,0.82
+Miami Heat,Portland Trail Blazers,0.69
+Charlotte Hornets,Detroit Pistons,0.55
+Indiana Pacers,Brooklyn Nets,0.51
+Orlando Magic,Atlanta Hawks,0.7
+Toronto Raptors,Minnesota Timberwolves,0.83
+Milwaukee Bucks,Sacramento Kings,0.79
+Utah Jazz,Dallas Mavericks,0.52
+Denver Nuggets,San Antonio Spurs,0.65
+Miami Heat,Golden State Warriors,0.81
+Los Angeles Lakers,Phoenix Suns,0.83
+Los Angeles Clippers,Philadelphia 76ers,0.61
+Washington Wizards,Chicago Bulls,0.67
+New Orleans Pelicans,Portland Trail Blazers,0.54
+Oklahoma City Thunder,San Antonio Spurs,0.58
+Boston Celtics,Houston Rockets,0.55
+Cleveland Cavaliers,Atlanta Hawks,0.68
+Orlando Magic,Detroit Pistons,0.55
+Toronto Raptors,Brooklyn Nets,0.78
+Milwaukee Bucks,Indiana Pacers,0.89
+Washington Wizards,New York Knicks,0.51
+Memphis Grizzlies,Portland Trail Blazers,0.52
+Charlotte Hornets,Minnesota Timberwolves,0.52
+Dallas Mavericks,Sacramento Kings,0.7
+Phoenix Suns,Golden State Warriors,0.7
+Miami Heat,Utah Jazz,0.51
+Los Angeles Lakers,Denver Nuggets,0.69
+Los Angeles Clippers,Boston Celtics,0.59
+Oklahoma City Thunder,New Orleans Pelicans,0.68
+Milwaukee Bucks,Detroit Pistons,0.96
+Miami Heat,Atlanta Hawks,0.76
+Chicago Bulls,Charlotte Hornets,0.59
+Philadelphia 76ers,Brooklyn Nets,0.61
+Memphis Grizzlies,Sacramento Kings,0.62
+Houston Rockets,Golden State Warriors,0.79
+Dallas Mavericks,Orlando Magic,0.74
+Washington Wizards,Cleveland Cavaliers,0.72
+Indiana Pacers,New York Knicks,0.8
+Toronto Raptors,Phoenix Suns,0.8
+Boston Celtics,Minnesota Timberwolves,0.83
+Denver Nuggets,Oklahoma City Thunder,0.53
+Utah Jazz,San Antonio Spurs,0.63
+Los Angeles Lakers,Memphis Grizzlies,0.74
+New Orleans Pelicans,Portland Trail Blazers,0.51
+Los Angeles Clippers,Sacramento Kings,0.71
+Brooklyn Nets,Charlotte Hornets,0.71
+Dallas Mavericks,Atlanta Hawks,0.75
+Chicago Bulls,Phoenix Suns,0.53
+Miami Heat,Cleveland Cavaliers,0.87
+Milwaukee Bucks,Philadelphia 76ers,0.69
+Utah Jazz,Houston Rockets,0.52
+Los Angeles Lakers,Boston Celtics,0.6
+Denver Nuggets,Minnesota Timberwolves,0.78
+Toronto Raptors,Indiana Pacers,0.56
+Chicago Bulls,Washington Wizards,0.59
+Oklahoma City Thunder,San Antonio Spurs,0.58
+New Orleans Pelicans,Golden State Warriors,0.66
+Portland Trail Blazers,Detroit Pistons,0.63
+Miami Heat,Cleveland Cavaliers,0.77
+Philadelphia 76ers,Atlanta Hawks,0.86
+Milwaukee Bucks,Washington Wizards,0.94
+Orlando Magic,Brooklyn Nets,0.62
+Houston Rockets,New York Knicks,0.85
+Dallas Mavericks,Minnesota Timberwolves,0.77
+Utah Jazz,Phoenix Suns,0.73
+Los Angeles Clippers,Memphis Grizzlies,0.62
+Indiana Pacers,Charlotte Hornets,0.68
+Milwaukee Bucks,Toronto Raptors,0.78
+Oklahoma City Thunder,Chicago Bulls,0.7
+Denver Nuggets,Detroit Pistons,0.8
+Los Angeles Lakers,New Orleans Pelicans,0.79
+Boston Celtics,Portland Trail Blazers,0.73
+Sacramento Kings,Golden State Warriors,0.63
+Charlotte Hornets,New York Knicks,0.57
+Philadelphia 76ers,Cleveland Cavaliers,0.68
+Brooklyn Nets,Washington Wizards,0.64
+Orlando Magic,Atlanta Hawks,0.67
+Miami Heat,Minnesota Timberwolves,0.74
+Houston Rockets,Memphis Grizzlies,0.61
+Dallas Mavericks,San Antonio Spurs,0.77
+Los Angeles Clippers,Phoenix Suns,0.81
+Boston Celtics,Utah Jazz,0.55
+Philadelphia 76ers,New York Knicks,0.84
+Indiana Pacers,Portland Trail Blazers,0.61
+Oklahoma City Thunder,Sacramento Kings,0.66
+Los Angeles Lakers,Golden State Warriors,0.91
+Orlando Magic,Minnesota Timberwolves,0.53
+Brooklyn Nets,Atlanta Hawks,0.64
+Toronto Raptors,Charlotte Hornets,0.84
+Memphis Grizzlies,Sacramento Kings,0.5
+Dallas Mavericks,Miami Heat,0.53
+Milwaukee Bucks,Oklahoma City Thunder,0.61
+New Orleans Pelicans,Cleveland Cavaliers,0.78
+Phoenix Suns,Detroit Pistons,0.55
+Utah Jazz,Washington Wizards,0.77
+Los Angeles Clippers,Denver Nuggets,0.53
+New York Knicks,Chicago Bulls,0.63
+Portland Trail Blazers,Atlanta Hawks,0.54
+Miami Heat,Brooklyn Nets,0.59
+Indiana Pacers,Cleveland Cavaliers,0.78
+Los Angeles Lakers,Memphis Grizzlies,0.85
+Boston Celtics,Houston Rockets,0.53
+Orlando Magic,San Antonio Spurs,0.69
+Phoenix Suns,Golden State Warriors,0.7

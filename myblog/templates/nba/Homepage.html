@@ -1,0 +1,146 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>NBA 首頁</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="Shortcut Icon" type="image/x-icon" href="{% static 'images/ball.jpg'%}">
+        <!-- 预留网站标题的位置 -->
+        <title>{% block title %}{% endblock %}</title>
+        <script src="{% static 'bootstrap/jquery/jquery-3.3.1.js' %}"></script>
+        <!-- 引入bootstrap的css文件 -->
+        <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+        <!-- 引入bootstrap的js文件 -->
+        <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+        <!-- bootstrap.js 依赖 jquery.js 和popper.js，因此在这里引入 -->
+        <script src="{% static 'bootstrap/popper/popper.js' %}"></script>
+        <!-- 引入layer.js -->
+        <script src="{% static 'layer/layer.js' %}"></script>
+        <link rel="stylesheet" type="text/css" href="{% static 'slick/slick.css'%}">
+        <link rel="stylesheet" type="text/css" href="{% static 'slick/slick-theme.css'%}"/>
+        <!-- <script src="{% static 'bootstrap/jquery/jquery-3.3.1.js' %}"></script> -->
+        <style type="text/css">
+                .navall{
+                text-align: center;
+                margin-left: 0;
+                margin-top: 10%
+                width: 1400px;
+                }
+                .navall div{
+                width: 16%;
+                display: inline-block;
+                position: relative;
+                background-color: #d8d8d8;
+                margin-top: 1%;
+                }
+
+                a:hover{
+                color: red;
+                }
+                        a{
+        text-decoration:none;
+        color: #131313;
+        font-size: 15px;
+        }
+        a:hover{
+        color: red;
+        }
+        .list-group{
+     flex-direction: row;
+ }
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #f5f9f94f;
+    border: none;
+}
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    /* text-align: center; */
+    margin-top: 1rem;
+    /*padding-left: 9rem;*/
+}
+
+        </style>
+
+        </head>
+        <body>
+    </head>
+    <body>
+        {% include 'header.html' %}
+      <!-- 定義放置文章標題的div容器 -->
+                <div class="container">
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:renew' %}">
+                                     一鍵更新數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:east' %}">
+                                    東部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:west' %}">
+                                    西部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:nba' %}">
+                                    全部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:first' 1 %}">
+                                    一鍵冠軍隊
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:predict' %}">
+                                    對抗預測勝率
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+    <div class="container">
+        <div class="row">
+            <div class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="{%static 'images/04.jpg'  %}" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="{%static 'images/07.jpg'  %}" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="{%static 'images/08.jpg'  %}" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="{%static 'images/rose.jpg'  %}" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $('.carousel').carousel({
+    interval: 2000
+    })
+    </script>
+    {% include 'footer.html' %}
+    {% include 'back_to_top_func.html' %}

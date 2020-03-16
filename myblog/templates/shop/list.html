@@ -1,0 +1,132 @@
+{% load staticfiles %}
+<html lang="zh-Hant">
+
+        <head>
+            <!-- 网站采用的字符编码 -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="Shortcut Icon" type="image/x-icon" href="{% static 'images/ball.jpg'%}">
+            <!-- 预留网站标题的位置 -->
+            <title>{% block title %}{% endblock %}</title>
+            <script src="{% static 'bootstrap/jquery/jquery-3.3.1.js' %}"></script>
+            <script src="{% static 'bootstrap/jquery/jquery.hoverpulse.js' %}"></script>
+            <!-- 引入bootstrap的css文件 -->
+            <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+            <link href="{% static 'css/base.css' %}" rel="stylesheet">
+            <!-- 引入bootstrap的js文件 -->
+            <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+            <!-- bootstrap.js 依赖 jquery.js 和popper.js，因此在这里引入 -->
+            <script src="{% static 'bootstrap/popper/popper.js' %}"></script>
+            <!-- 引入layer.js -->
+            <script src="{% static 'layer/layer.js' %}"></script>
+            <link rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+                integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+                crossorigin="anonymous">
+                {% block style %}
+                <style type="text/css">
+                img:hover{
+                transform: scale(1.05);
+                position:relative;
+                z-index:50;
+                }
+                div#layui-layer1 {
+                top: 200px !important;
+                }
+                </style>
+            {% endblock style %}
+        </head></script>
+        <style type="text/css">
+        body {
+        /*padding-top: 0;*/
+        }
+        img:hover{
+        transform: scale(1.05);
+        position:relative;
+        z-index:50;
+        }
+        img:hover{
+        transform: scale(1.05);
+        position:relative;
+        z-index:50;
+        }
+        div#layui-layer1 {
+        top: 200px !important;
+        }
+        .mb-5, .my-5 {
+        margin: 2rem !important;
+        margin-top: : 5rem !important;
+        }
+/*        .pb-3, .py-3 {
+        padding-bottom: 1rem!important;
+        float: right;
+        width: 100%;
+        }*/
+        .col-lg-4    {text-align: center;
+        font-size: x-large;
+        }
+        p {
+        margin-top: 0;
+        /* margin-bottom: 1rem; */
+        font-size: 45px;
+        color: #db2d30bf;
+        }
+ h3{
+
+    color: #414755;}
+    body {
+     padding-top: 0px; 
+}
+
+        </style>
+    </head>
+    <body>
+        {% include 'header.html' %}
+        <!-- Page Content -->
+        <div class="container">
+            <!-- Heading Row -->
+            <div class="row my-5">
+                <div class="col-sm-4" >
+                    <h3>分類</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item list-group-item-light">
+                            <a href="{% url 'shop:product_list' %}">All</a>
+                        </li>
+                        {% for c in categories %}
+                            <li  class="list-group-item list-group-item-light">
+                                <a href="{{ c.get_absolute_url }}">{{ c.name }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div></div>
+                                    <div class="row  ">
+                            <div class="col-sm-12 " ><p>
+                                {% if category %}【{{ category.name }}】
+                                {% else %}【所有產品】{% endif %}</p></div>
+                            </div>
+                <div class="row ">
+                    {% for product in products %}
+                        <div class="col-sm-3 my-5" >
+                            <div class="card" style="width: 15rem;">
+                                <a href="{{ product.get_absolute_url }}"><img src="
+                                    {% if product.image %}{{ product.image.url }}{% else %}{% static 'img/no_image.png' %}{% endif %}" style="width: 15rem;" ></a>
+                                    <div class="card-body">
+                                        <a href="{{ product.get_absolute_url }}"></a>
+                                        <h2 class="card-title">{{ product.name }}</h2>
+                                        <h3 class="card-text">${{ product.price }}</h3>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="{{ product.get_absolute_url }}" class="btn btn-primary btn-sm">查看</a>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </body>
+                    </html>
+                        <!-- /.container -->
+                        <!-- Bootstrap core JavaScript -->
+                        <!-- <script src="{% static 'news/vendor/jquery/jquery.min.js' %}"></script> -->
+                        <!-- <script src="{% static 'news/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script> -->
+                        <!-- <script src="{% static 'bootstrap/jquery/jquery.hoverpulse.js' %}"></script> -->
+
+                        {% include 'back_to_top_func.html' %}

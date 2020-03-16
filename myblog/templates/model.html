@@ -1,0 +1,139 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 網站採用的字符編碼 -->
+        <meta charset="utf-8">
+        <link rel="Shortcut Icon" type="image/x-icon" href="{% static 'images/ball.jpg'%}">
+        <meta name="viewport" content="width=device-width, initial-scale=1 ">
+        <!-- 預留網站標題的位置 -->
+        <script src="{% static 'bootstrap/jquery/jquery-3.3.1.js' %}"></script>
+        <!-- 引入bootstrap的css文件 -->
+        <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+        <!-- 引入bootstrap的js文件 -->
+        <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+        <!-- bootstrap.js 依賴 jquery.js 和popper.js，因此在這裡引入 -->
+        <script src="{% static 'bootstrap/popper/popper.js' %}"></script>
+        <!-- 引入layer.js -->
+        <script src="{% static 'layer/layer.js' %}"></script>
+        <link rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+            >
+            <meta charset="UTF-8">
+            {% block title %}
+                <title>NBA 首頁</title>
+            {% endblock %}
+            {% block CSS %}
+                <style type="text/css">
+                .navall{
+                text-align: center;
+                margin-left: 0;
+                margin-top: 10%
+                width: 1400px;
+                }
+                .navall div{
+                width: 16%;
+                display: inline-block;
+                position: relative;
+                background-color: #d8d8d8;
+                margin-top: 1%;
+                }
+                a:hover{
+                color: red;
+                }
+                a{
+                text-decoration:none;
+                color: #131313;
+                font-size: 15px;
+                }
+                a:hover{
+                color: red;
+                }
+                .list-group{
+                flex-direction: row;
+                }
+                .list-group-item {
+                position: relative;
+                display: block;
+                padding: .75rem 1.25rem;
+                margin-bottom: -1px;
+                background-color: #f5f9f94f;
+                border: none;
+                }
+                .breadcrumb {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                padding: .75rem 1rem;
+                margin-bottom: 1rem;
+                list-style: none;
+                background-color: #e9ecef;
+                border-radius: .25rem;
+                /* text-align: center; */
+                margin-top: 1rem;
+                /*padding-left: 2rem;*/
+                /*text-align:center;*/
+                }
+                </style>
+            {% endblock CSS %}
+            {% block modeljs %}
+            {% endblock %}
+            {% block modelcss %}
+            {% endblock  %}
+        </head>
+        <body>
+            {% include 'header.html' %}
+            {% block content %}
+                <!-- 定義放置文章標題的div容器 -->
+                <div class="container">
+                    <nav aria-label="breadcrumb ">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:renew' %}">
+                                     一鍵更新數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:east' %}">
+                                    東部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:west' %}">
+                                    西部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:nba' %}">
+                                    全部球隊數據
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:first' 1 %}">
+                                    一鍵冠軍隊
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="{% url 'nba:predict' %}">
+                                    對抗預測勝率
+                                </a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            {% endblock content %}
+            {% block modeldiv %}
+            {% endblock %}
+            {% block modeltable %}
+            {% endblock %}
+            {% block modelscript %}
+            {% endblock %}
+            {% block footer %}
+                {% include 'footer.html' %}
+            {% endblock footer %}
+            {% include 'back_to_top_func.html' %}
+        </body>
+    </html>

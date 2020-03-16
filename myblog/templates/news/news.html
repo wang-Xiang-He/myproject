@@ -1,0 +1,84 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="Shortcut Icon" type="image/x-icon" href="{% static 'images/ball.jpg'%}">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>即時體育新聞</title>
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'news/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <script src="{% static 'bootstrap/jquery/jquery-3.3.1.js' %}"></script>
+    <script src="{% static 'bootstrap/jquery/jquery.hoverpulse.js' %}"></script>
+    <script src="{% static 'bootstrap/popper/popper.js' %}"></script>
+    <!-- Custom styles for this template -->
+    <link href="{% static  'news/css/small-business.css' %}" rel="stylesheet">
+    <script src="{% static 'layer/layer.js' %}"></script>
+    <style type="text/css">
+    body {
+    padding-top: 0;
+    }
+    img:hover{
+    transform: scale(1.05);
+    position:relative;
+    z-index:50;
+    }
+    .col-md-4{padding-right: 0;
+    padding-left: 50px;
+    padding-bottom:50px;}
+    </style>
+  </head>
+  <body>
+    {% include 'header.html' %}
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Heading Row -->
+      <div class="row align-items-center my-5">
+        <div class="col-lg-7" style="margin-left:0;">
+          <a href='{{search_list.0.news_link}}'>
+          <img class="img-fluid rounded mb-4 mb-lg-0" src= '{{search_list.0.news_img}}' width="900px" height="600px" alt="" ;></a>
+        </div>
+        <!-- /.col-lg-8 -->
+        <div class="col-lg-5 ">
+          <h1 class="font-weight-light">{{search_list.0.news_title}}</h1>
+          <p>{{search_list.0.news_text}}</p>
+          <a class="btn btn-primary" href="{{search_list.0.news_link}}">查看</a>
+        </div>
+        <!-- /.col-md-4 -->
+      </div>
+    </div>
+    <!-- Content Row -->
+    <div class="row align-items-center">
+      {% for item in search_list%}
+        <div class="col-md-4 " >
+          <div class="card" style="width: 20rem;">
+            <a href='{{item.news_link}}'><img class="card-img-top" src='{{item.news_img}}' alt="Card image cap"></a>
+            <div class="card-body">
+              <h2 class="card-title">{{item.news_title}}</h2>
+              <p class="card-text">{{item.news_text}}</p>
+            </div>
+            <div class="card-footer">
+              <a href="{{item.news_link}}" class="btn btn-primary btn-sm">查看</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+      <!-- /.container -->
+      <!-- Bootstrap core JavaScript -->
+      <script src="{% static 'news/vendor/jquery/jquery.min.js' %}"></script>
+      <script src="{% static 'news/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+      <script src="{% static 'bootstrap/jquery/jquery.hoverpulse.js' %}"></script>
+      <!--       <script type="text/javascript">
+      $(document).ready(function() {
+      $('img').hoverpulse({
+      size: 20,
+      speed: 400
+      });
+      });
+      </script>
+    </body> -->
+    <div class="container-fluid">
+    {% include 'footer.html' %}</div >
+    {% include 'back_to_top_func.html' %}

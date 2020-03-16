@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Thank you
+{% endblock %}
+
+{% block content %}
+    <h1>Thank you</h1>
+    <p>Your order has been successfully completed. Your order number is <strong>{{ order.id }}</strong>.</p>
+{% endblock %}
+{% block footer %}
+<div style = 'background-color:#6c757d;position: fixed;  bottom: 0;
+	right: 0;width: 100%;' height='50px' >
+	<p style="text-align: center;">Copyright &copy; www.project.com 2019</p>
+</div>
+{% endblock footer  %}

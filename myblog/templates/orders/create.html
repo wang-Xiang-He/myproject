@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block title %}
+    結帳
+{% endblock %}
+{% block style %}
+    <style type="text/css">
+    img:hover{
+    transform: scale(1.05);
+    position:relative;
+    z-index:50;
+    }
+    div#layui-layer1 {
+    top: 200px !important;
+    }
+    .order {
+    /*float: right;*/
+    width: 300px;
+    background: #efefef;
+    padding: 10px 20px;
+    color: #333;
+    border-bottom: 4px solid #5993bb;
+    margin-top: 50px;}
+
+.order-form {
+     float: none; 
+}
+    </style>
+{% endblock style %}
+{% block content %}
+    <div class="container">
+        <div class="row ">
+             <div class="col-sm-4 offset-sm-2">
+                <form action="{% url 'orders:order_create'%}" method="post" class="order-form" novalidate >
+                    {{ form.as_p }}
+                    <p><input type="submit" value="結帳"></p>
+                    {% csrf_token %}
+                </form> </div>
+            <div class="col-sm-4 " >
+                <div class="order">
+                <h1>payment</h1>
+                    <h3>Your order</h3>
+                    <ul>
+                        {% for item in cart %}
+                            <li>
+                                {{ item.quantity }} x {{ item.product.name }}
+                                <span>${{ item.total_price }}</span>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <p>Total: ${{ cart.get_total_price }}</p>
+                </div>
+               </div></div></div>
+            {% endblock %}

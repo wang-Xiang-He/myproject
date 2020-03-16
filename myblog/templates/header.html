@@ -1,0 +1,142 @@
+<!-- 引入notifications的模板標籤 -->
+{%load static%}
+{% load notifications_tags %}
+{% notifications_unread as unread_count %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <div class="container">
+        <!-- 導航欄商標 -->
+        <a class="navbar-brand" href="/"><img src="{%static 'images/ball.jpg' %}" width='50px' >
+        全民瘋籃球</a>
+        <!-- 導航入口 -->
+        <div>
+            {%load account%}
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a  class="nav-link dropdown-toggle" href="#"
+                        id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> NBA專欄
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{% url 'nba:homepage' %}">NBA動態</a>
+                        <a class="dropdown-item" href="{% url 'news:news' %}">NBA新聞</a>
+                    </div>
+                </li>
+                <!-- Django的 if 模板語句 -->
+                 <!-- Django的 if 模板語句 -->
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'shop:product_list' %}">商品頁</a>
+                    </li>
+                    <li class="nav-item" >
+                        {% with total_items=mycart|length %}
+                        {% if mycart|length > 0 %}
+                            <a class="nav-link" href="{% url 'cart:cart_detail' %}" 
+                            style="color:#FF6161;">
+                                商品數量:
+                                {{ total_items }}
+                                ,
+                                ${{ mycart.get_total_price }}
+                            </a>
+                        {% else %}
+                        <li class="nav-item" >
+                            <a class="nav-link" href="{% url 'cart:cart_detail' %}" 
+                            >購物車為空</a>
+                        </li>
+                        {% endif %}
+                    {% endwith %}
+                </li>
+                <!-- 如果用戶已經登錄，則顯示用戶名下拉框 -->
+                <!-- 如果用戶已經登錄，則顯示用戶名下拉框 -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <!-- 新增代碼，小紅點 -->
+                        <!-- unread_count是當前用戶的未讀通知的計數。 -->
+                        {% if unread_count %}
+                            <svg viewBox="0 0 8 8"
+                                width="8px"
+                                height="8px">
+                                <circle cx="4"
+                                cy="4"
+                                r="4"
+                                fill="#ff6b6b"
+                                ></circle>
+                            </svg>
+                        {% endif %}
+                        {{ user.username }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- 新增代碼，通知計數 -->
+                        <a class="dropdown-item" href="{% url 'notice:list' %}">通知
+                            {% if unread_count %}
+                                <span class="badge badge-danger">{{ unread_count }}</span>
+                            {% endif %}
+                        </a>
+                        <a class="dropdown-item" href="{% url 'article:article_list' %}">心得文章
+                        </a>
+                        <a class="dropdown-item" href="{% url 'article:article_create' %}">發表文章
+                        </a>
+                        <a class="dropdown-item" href="{% url 'chat:chat' %}">聊天大廳</a>
+                        <!-- <a class="dropdown-item" href='{% url "userprofile:logout" %}'>退出登錄</a> -->
+                        <a href="#" class="dropdown-item"
+                        onclick="user_logout()">退出登錄</a>
+                        <a class="dropdown-item" href='{% url "userprofile:edit" user.id %}'>個人信息</a>
+                        <a class="dropdown-item" href="#" onclick="user_delete()">刪除用戶</a>
+                    </div>
+                </li>
+                <!-- 如果用戶未登錄，則顯示 “登錄” -->
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'account_login' %}">登錄</a>
+                </li>
+                <!-- if 語句在這裡結束 -->
+            {% endif %}
+        </ul>
+    </div>
+</div>
+</nav>
+{% if user.is_authenticated %}
+<form
+    style="display:none;"
+    id="user_delete"
+    action="{% url 'userprofile:delete' user.id %}"
+    method="POST"
+    >
+    {% csrf_token %}
+    <button type="submit">發送</button>
+</form>
+<script>
+function user_delete() {
+// 調用layer彈窗組件
+layer.open({
+title: "確認刪除",
+content: "確認刪除用戶資料嗎？",
+yes: function(index, layero) {
+$('form#user_delete button').click();
+layer.close(index);
+},
+})
+}
+</script>
+{% endif %}
+<script>
+function user_logout() {
+// 調用layer彈窗組件
+layer.open({
+area: ['10%', '200px'],
+title: "確認登出",
+content: "確認刪登出嗎？",
+btn: ['確認', '取消'],
+yes: function(index, layero) {
+window.location.href='{% url "userprofile:logout" %}';
+},
+btn2: function(index, layero) {
+}
+,
+cancel: function() {
+//右上角关闭回调
+}
+})
+}
+</script>
+<!-- 關於其中的'article:article_list'的解釋： -->
+<!-- 前面的article是在項目根目錄的urls.py中定義的app的名稱 -->
+<!-- 後面的article_list是在app中的urls.py中定義的具體的路由地址 -->

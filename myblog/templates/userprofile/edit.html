@@ -1,0 +1,45 @@
+{% extends "base.html" %} {% load staticfiles %}
+{% block title %} 用戶信息 {% endblock title %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <br>
+            <div class="col-md-4">用戶名: {{ user.username }}</div>
+            {% if profile.avatar %}
+                <div class="col-md-4">頭像</div>
+                <img src="{{ profile.avatar.url}}" style="max-width: 20%; border-radius: 15%;" class="col-md-4">
+            {% else %}
+                <h5 class="col-md-4">暫無頭像</h5>
+            {% endif %}
+            <br>
+
+            <br>
+          <!--   注意，表單必須設置
+          enctype="multipart/form-data"屬性，才能夠正確上傳圖片等文件。
+            添加<input type="file" ...>標籤用於上傳圖片。 -->
+            <form method="post" action="." enctype="multipart/form-data">
+                {% csrf_token %}
+                                    <!-- avatar -->
+                <div class="form-group">
+                    <label for="avatar">上傳頭像</label>
+                    <input type="file" class="form-control-file" name="avatar" id="avatar" >
+                </div>
+                <!-- phone -->
+                <div class="form-group col-md-4">
+                    <label for="phone">電話</label>
+                    <input type="text" class="form-control" id="phone" name="phone" value="{{ profile.phone }}" required="required">
+                </div>
+                <!-- bio -->
+                <div class="form-group col-md-4">
+                    <label for="bio">簡介</label>
+                    <textarea type="text" class="form-control" id="bio" name="bio" rows="12" required="required">{{ profile.bio }}</textarea>
+                </div>
+
+                <!-- 提交按鈕 -->
+                <button type="submit" class="btn btn-primary">提交</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}

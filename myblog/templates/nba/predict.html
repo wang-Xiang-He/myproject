@@ -1,0 +1,80 @@
+{% extends 'model.html' %}
+{% load static %}
+{%load shrift %}
+{% block title %}
+    <title>全部球隊數據</title>
+{% endblock %}
+{% block modeljs %}
+    <script type="text/javascript" src="{% static 'js/echarts.js' %}"></script>
+    <script src='{% static "js/jquery-3.1.0.js" %}'></script>
+    <script src="{% static 'jquery.ba-resize.js' %}"></script>
+
+        <style type="text/css">
+ 
+
+    h1{
+    /*margin-left: 5%;*/
+    }
+    .winrate{text-align: center;
+        font-size: 30px;
+    }
+    .ballgeme{text-align: center;
+        font-size: 35px;
+    }
+
+
+    </style>
+{% endblock %}
+
+	{% block modeldiv %}
+		<br>
+		<!-- 提交文章的表單 -->
+		<form method="post" action=".">
+			<!-- Django中需要POST數據的地方都必須有csrf_token -->
+			{% csrf_token %}
+			<div id="first">
+				<h1>請選擇預測隊伍</h1>
+				<div class="form-group">
+					<label for="column">隊伍一</label>
+					<select class="form-control"
+						id="team1"
+						name="team1"
+						>
+						<option value="none">請選擇隊伍..</option>
+						{% for team in team_list %}
+							<option value="{{ team }}">{{ team }}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<p></p>
+				<div class="form-group">
+					<label for="column">隊伍二</label>
+					<select class="form-control"
+						id="team2"
+						name="team2"
+						>
+						<option value="none">請選擇隊伍..</option>
+						{% for team in team_list %}
+							<option value="{{ team }}">{{ team }}</option>
+						{% endfor %}
+					</select>
+					
+				</div>
+				<p></p>
+				<button type="submit" class="btn btn-primary">開始預測</button>
+			</form>
+			<p></p>
+			{% if prob %}
+				<div id="show">
+					<h1>預測勝率:</h1>
+					<div class="ballgeme">勝隊 : {{ win }}</div><br>
+					<div class="ballgeme">敗隊 : {{lose }}</div><br>
+					<div class="winrate">獲勝機率:{{prob }}</div>
+				</div>
+			{% endif %}
+		{% endblock %}
+		{% block footer %}
+			{% include 'footer.html' %}
+		{% endblock footer %}
+	</body>
+</html>

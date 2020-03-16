@@ -1,0 +1,96 @@
+第一个问题，如何遍历树形结构？
+
+django-mptt提供了一个快捷方式： -->
+
+{% load mptt_tags %}
+<ul>
+    {% recursetree objs %}
+        <li>
+            {{ node.your_field }}
+            {% if not node.is_leaf_node %}
+                <ul class="children">
+                    {{ children }}
+                </ul>
+            {% endif %}
+        </li>
+    {% endrecursetree %}
+</ul>
+
+<!-- 内部的实现你不用去管，当成一个黑盒子去用就好了。objs是需要遍历的数据集，node是其中的单个数据。有两个地方要注意：
+
+{% load mptt_tags %}不要忘记写
+node这个变量名太宽泛，用{% with comment=node %}给它起了个别名 -->
+
+
+<!-- Modal
+Modal是Bootstrap内置的弹窗。本文相关代码如下： -->
+
+<!-- 加载 modal 的按钮 -->
+{% if user.is_authenticated %}
+<button type="button" 
+        class="btn btn-light btn-sm text-muted" 
+        onclick="load_modal({{ article.id }}, {{ comment.id }})"
+        >
+    回复
+</button>
+{% else %}
+<a class="btn btn-light btn-sm text-muted" 
+   href="{% url 'userprofile:login' %}"
+   >
+    回复
+</a>
+{% endif %}
+
+<!-- Modal -->
+<div class="modal fade" 
+     id="comment_{{ comment.id }}" 
+     tabindex="-1" 
+     role="dialog" 
+     aria-labelledby="CommentModalCenter" 
+     aria-hidden="true"
+     >
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content" style="height: 480px">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">回复 {{ comment.user }}：</h5>
+            </div>
+            <div class="modal-body" id="modal_body_{{ comment.id }}"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- 加载Modal
+最难理解的可能就是这段加载Modal的JavaScript代码了： -->
+
+<!-- // 加载 modal -->
+
+<script>
+	function load_modal(article_id, comment_id) {
+	    let modal_body = '#modal_body_' + comment_id;
+	    let modal_id = '#comment_' + comment_id;
+
+	    // <!-- // 加载编辑器 -->
+	    if ($(modal_body).children().length === 0) {
+	        let content = '<iframe src="/comment/post-comment/' +
+	            article_id +
+	            '/' +
+	            comment_id +
+	            '" frameborder="0" style="width: 100%; height: 100%;"></iframe>';
+	        $(modal_body).append(content);
+	    };
+
+	    $(modal_id).modal('show');
+	}
+</script>
+
+<!-- 实际上核心逻辑只有3步：
+
+点击回复按钮时唤醒了load_modal()函数，并将文章id、父级评论id传递进去
+$(modal_body).append(content)找到对应Modal的容器，并将一个iframe容器动态添加进去
+$(modal_id).modal('show')找到对应的Modal，并将其唤醒
+为什么iframe需要动态加载？这是为了避免潜在的性能问题。你确实可以在页面初始加载时把所有iframe都渲染好，但是这需要花费额外的时间，并且绝大部分的Modal用户根本不会用到，很不划算。
+
+if语句的作用是判断Modal中如果已经加载过，就不再重复加载了。
+
+最后，什么是iframe？这是HTML5中的新特性，可以理解成当前网页中嵌套的另一个独立的网页。既然是独立的网页，那自然也会独立的向后台请求数据。仔细看src中请求的位置，正是前面我们在urls.py中写好的第二个path。即对应了post_comment视图中的GET逻辑：

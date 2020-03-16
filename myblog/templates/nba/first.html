@@ -1,0 +1,55 @@
+{% extends 'model.html' %}
+{% load static %}
+{%load shrift %}
+{% block title %}
+    <title>全部球隊數據</title>
+{% endblock %}
+{% block modeljs %}
+    <script type="text/javascript" src="{% static 'js/echarts.js' %}"></script>
+    <script src='{% static "js/jquery-3.1.0.js" %}'></script>
+    <script src="{% static 'jquery.ba-resize.js' %}"></script>
+
+        <style type="text/css">
+ 
+
+    h1{
+    /*margin-left: 5%;*/
+    }
+    .winrate{text-align: center;
+        font-size: 30px;
+    }
+    .ballgeme{text-align: center;
+        font-size: 35px;
+    }
+
+
+    </style>
+{% endblock %}
+
+
+
+
+{% block modeldiv %}
+    <div class='container'>
+        <div class="row ">
+            {% if nbadata %}
+                <!-- <div id="first"> -->
+                    <div class="col-sm-12">
+                        <div class="ballgeme">
+                        <h1>預測冠軍隊(目前勝率最高):</h1>
+                        </div></div>
+                        <div class="col-sm-12"><div class="ballgeme">
+                            <img src="{{ nbadata.logopath }}" style="width: 100px">
+                        </div></div>
+                        <div class="col-sm-12">
+                        <div class="ballgeme">({{ nbadata.area|shrift }} /{{ nbadata.ballgame| shrift }})勝率:{{ nbadata.winrate }} </div></div>
+                    </div>
+                </div>
+            {% else %}
+                <div id="first">
+                    <p>沒有數據</p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
