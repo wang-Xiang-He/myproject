@@ -9,12 +9,12 @@ from orders.models import Order
 def payment_process(request):
     order_id = request.session.get('order_id')
     order = get_object_or_404(Order, id=order_id)
-    # POST请求则处理支付
+    # POST請求則處理支付
     if request.method == "POST":
-        # 获得最终生成的交易token
-        # payment_method_nonce：Braintree JS 客户端生成的交易token
+        # 獲得最終生成的交易token
+        # payment_method_nonce：Braintree JS 客戶端生成的交易token
         nonce = request.POST.get('payment_method_nonce', None)
-        # 使用token和附加信息，建立并向Braintree提交交易信息
+        # 使用token和附加信息，建立並向Braintree提交交易信息
         result = braintree.Transaction.sale(
             {
                 'amount': '{:2f}'.format(order.get_total_cost()),
@@ -24,7 +24,7 @@ def payment_process(request):
                 }
             }
         )
-        # 如果提交交易信息成功,将已支付和交易id记录到Order表中
+        # 如果提交交易信息成功,將已支付和交易id記錄到Order表中
         if result.is_success:
             order.paid = True
             order.braintree_id = result.transaction.id
@@ -33,7 +33,7 @@ def payment_process(request):
         else:
             return redirect('payment:canceled')
 
-    # GET请求则生成临时token交给前端页面以生成支付表单供用户填写
+    # GET請求則生成臨時token交給前端頁面以生成支付表單供用戶填寫
     else:
         client_token = braintree.ClientToken.generate()
         return render(request,

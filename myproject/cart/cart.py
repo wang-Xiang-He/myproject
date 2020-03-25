@@ -76,7 +76,7 @@ class Cart(object):
 
     def __len__(self):
         """
-        购物车内一共有几种商品
+        購物車內一共有幾種商品
         :return: INT
         """
         return sum(item['quantity'] for item in self.cart.values())

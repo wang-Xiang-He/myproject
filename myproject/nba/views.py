@@ -16,7 +16,7 @@ from .models import NBAData
 
 # Create your views here.
 def predict(request):
-    # 判断用户是否提交数据
+    # 判斷用戶是否提交數據
     df = pd.read_csv('static/19-20Result.csv')
     team_list=[]
 
@@ -57,14 +57,14 @@ def predict(request):
 
 
 class IndexViews(generic.ListView):
-    model = NBAData # 设置后取数据库中的全部数据
-    template_name = 'nba/index.html' # 指定模块
-    context_object_name = 'GGGG' # 获取数据名字 上下文中使用的变量的名称
+    model = NBAData # 設置後取數據庫中的全部數據
+    template_name = 'nba/index.html' # 指定模塊
+    context_object_name = 'GGGG' # 獲取數據名字 上下文中使用的變量的名稱
 
-    # queryset = NBAData.objects.filter().all()[0:5]  # 如果提供，则 queryset取代所提供的值model。
-    #              ||(等价)
+    # queryset = NBAData.objects.filter().all()[0:5]  # 如果提供，則 queryset取代所提供的值model。
+    #              ||(等價)
     def get_queryset(self):
-        '''根据winrate列进行排序从大到小 -winrate 从小到大'''
+        '''根據winrate列進行排序從大到小 -winrate 從小到大'''
         return NBAData.objects.order_by('-winrate')
 
 class EastViews(generic.ListView):

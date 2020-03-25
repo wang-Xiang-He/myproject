@@ -27,8 +27,8 @@ class Product(models.Model):
     available = models.BooleanField(default=True)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
-# 处理金额相关的数据时，一定要使用DecimalField而不是FloadField，
-# 前者在Python 中对应Decimal类，后者就是普通双精度浮点。采用前者不会出现小数计算错误。
+# 處理金額相關的數據時，一定要使用DecimalField而不是FloadField，
+# 前者在Python 中對應Decimal類，後者就是普通雙精度浮點。採用前者不會出現小數計算錯誤。
 
     def get_absolute_url(self):
         return reverse('shop:product_detail',args=[self.id,self.slug])

@@ -18,12 +18,12 @@ def order_create(request):
                                          quantity=item['quantity'])
             # 成功生成OrderItem之後清除購物車
             cart.clear()
-            # 成功完成订单后发送邮件
+            # 成功完成訂單後發送郵件
             # send_email
             order_created(order.id)
-            # 在session中加入订单id
+            # 在session中加入訂單id
             request.session['order_id'] = order.id
-            # 重定向到支付页面
+            # 重定向到支付頁面
             return redirect(reverse('payment:process'))
 
     else:
