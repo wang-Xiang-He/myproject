@@ -3,7 +3,7 @@ daphne==2.0.0
 channels==2.0.0
 beautifulsoup4==4.6.0
 channels-redis==2.3.3
-Django==2.2.0
+Django==2.2.27
 django-allauth==0.41.0
 django-appconf==1.0.3
 django-ckeditor==5.9.0
