@@ -28,7 +28,7 @@ boto3==1.9.253
 botocore==1.12.253
 Bottleneck==1.2.1
 braintree==3.45.0
-certifi==2019.9.11
+certifi==2022.12.7
 cffi==1.11.4
 channels==2.1.7
 channels-redis==2.3.3
